@@ -54,16 +54,23 @@ document.addEventListener('DOMContentLoaded', function() {
     const portfolioItems = [
         {
             id: 1,
-            title: "Floral Brand Identity",
+            title: "Hames Brand Identity",
             category: "branding",
-            image: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-            description: "Complete brand identity for a floral boutique"
+            image: "images/branding.jpeg",
+            description: "Complete brand identity for a Hames boutique"
         },
         {
             id: 2,
             title: "Cosmetics Packaging",
             category: "packaging",
-            image: "https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+            image: "images/hames-t-shirt.jpeg",
+            description: "Elegant packaging design for luxury cosmetics"
+        },
+                {
+            id: 2,
+            title: "Cosmetics Packaging",
+            category: "packaging",
+            image: "images/hames-t-shirt2.jpeg",
             description: "Elegant packaging design for luxury cosmetics"
         },
         {
