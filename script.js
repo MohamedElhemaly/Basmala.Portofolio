@@ -73,6 +73,13 @@ document.addEventListener('DOMContentLoaded', function() {
             image: "images/hames-t-shirt2.jpeg",
             description: "Elegant packaging design for luxury cosmetics"
         },
+                        {
+            id: 2,
+            title: "Cosmetics Packaging",
+            category: "packaging",
+            image: "images/hames-t-shirt3.jpeg",
+            description: "Elegant packaging design for luxury cosmetics"
+        },
         {
             id: 3,
             title: "Wedding Invitation Set",
