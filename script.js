@@ -80,53 +80,144 @@ document.addEventListener('DOMContentLoaded', function() {
             image: "images/hames-t-shirt3.jpeg",
             description: "Elegant packaging design for luxury cosmetics"
         },
-        {
-            id: 3,
-            title: "Wedding Invitation Set",
-            category: "print",
-            image: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-            description: "Custom wedding invitation suite with floral motifs"
-        },
-        {
-            id: 4,
-            title: "Fashion Brand Website",
-            category: "digital",
-            image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-            description: "Website UI/UX design for a fashion brand"
-        },
+        // {
+        //     id: 3,
+        //     title: "Wedding Invitation Set",
+        //     category: "print",
+        //     image: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+        //     description: "Custom wedding invitation suite with floral motifs"
+        // },
+        // {
+        //     id: 4,
+        //     title: "Fashion Brand Website",
+        //     category: "digital",
+        //     image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+        //     description: "Website UI/UX design for a fashion brand"
+        // },
         {
             id: 5,
             title: "Organic Food Logo",
             category: "branding",
-            image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+            image: "images/mix.jpeg",
             description: "Logo design for organic food company"
         },
         {
             id: 6,
             title: "Botanical Illustrations",
             category: "illustration",
-            image: "https://images.unsplash.com/photo-1579762715118-a6f1d4b934f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+            image: "images/card.jpeg",
+            description: "Series of feminine botanical illustrations"
+        },
+                {
+            id: 6,
+            title: "Botanical Illustrations",
+            category: "illustration",
+            image: "images/cebha3la.jpeg",
+            description: "Series of feminine botanical illustrations"
+        },
+                {
+            id: 6,
+            title: "Botanical Illustrations",
+            category: "illustration",
+            image: "images/cairo.jpeg",
             description: "Series of feminine botanical illustrations"
         },
         {
             id: 7,
             title: "Jewelry Brand Identity",
             category: "branding",
-            image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+            image: "images/in-solution.jpeg",
             description: "Luxury brand identity for jewelry brand"
         },
-        {
-            id: 8,
-            title: "Book Cover Design",
-            category: "print",
-            image: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-            description: "Book cover design for romantic novel"
+                {
+            id: 7,
+            title: "Jewelry Brand Identity",
+            category: "branding",
+            image: "images/coderatech.jpeg",
+            description: "Luxury brand identity for jewelry brand"
         },
+                {
+            id: 7,
+            title: "Jewelry Brand Identity",
+            category: "branding",
+            image: "images/oa.jpeg",
+            description: "Luxury brand identity for jewelry brand"
+        },
+                {
+            id: 7,
+            title: "Jewelry Brand Identity",
+            category: "branding",
+            image: "images/techne.jpeg",
+            description: "Luxury brand identity for jewelry brand"
+        },
+                {
+            id: 7,
+            title: "Jewelry Brand Identity",
+            category: "branding",
+            image: "images/mia.jpeg",
+            description: "Luxury brand identity for jewelry brand"
+        },
+                {
+            id: 7,
+            title: "Jewelry Brand Identity",
+            category: "branding",
+            image: "images/t-peer.jpeg",
+            description: "Luxury brand identity for jewelry brand"
+        },
+                {
+            id: 7,
+            title: "Jewelry Brand Identity",
+            category: "branding",
+            image: "images/la-nuit.jpeg",
+            description: "Luxury brand identity for jewelry brand"
+        },
+                {
+            id: 7,
+            title: "Jewelry Brand Identity",
+            category: "branding",
+            image: "images/global.jpeg",
+            description: "Luxury brand identity for jewelry brand"
+        },
+        // {
+        //     id: 8,
+        //     title: "Book Cover Design",
+        //     category: "print",
+        //     image: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+        //     description: "Book cover design for romantic novel"
+        // },
         {
             id: 9,
             title: "Social Media Campaign",
             category: "digital",
-            image: "https://images.unsplash.com/photo-1611262588024-d12430b98920?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+            image: "images/borad.jpeg",
+            description: "Complete social media campaign visuals"
+        },
+                {
+            id: 9,
+            title: "Social Media Campaign",
+            category: "digital",
+            image: "images/borad.jpeg",
+            description: "Complete social media campaign visuals"
+        },
+                {
+            id: 9,
+            title: "Social Media Campaign",
+            category: "digital",
+            image: "images/markting.jpeg",
+            description: "Complete social media campaign visuals"
+        },
+                {
+            id: 9,
+            title: "Social Media Campaign",
+            category: "digital",
+            image: "images/presentaiton.jpeg",
+            description: "Complete social media campaign visuals"
+        },
+                {
+            id: 9,
+            title: "Social Media Campaign",
+            category: "digital",
+            image: "images/multimedia.jpeg",
             description: "Complete social media campaign visuals"
         }
     ];
