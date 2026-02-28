@@ -59,6 +59,13 @@ document.addEventListener('DOMContentLoaded', function() {
             image: "images/branding.jpeg",
             description: "Complete brand identity for a Hames boutique"
         },
+                {
+            id: 1,
+            title: "Hames Brand Identity",
+            category: "branding",
+            image: "images/kajo.jpeg",
+            description: "Complete brand identity for a Hames boutique"
+        },
         {
             id: 2,
             title: "Cosmetics Packaging",
