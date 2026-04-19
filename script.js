@@ -70,21 +70,21 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 2,
             title: "Cosmetics Packaging",
             category: "packaging",
-            image: "images/hames-t-shirt.jpeg",
+            image: "images/WhatsApp Image 2026-04-10 at 1.25.00 AM.jpeg",
             description: "Elegant packaging design for luxury cosmetics"
         },
                 {
             id: 2,
             title: "Cosmetics Packaging",
             category: "packaging",
-            image: "images/hames-t-shirt2.jpeg",
+            image: "images/2.jpeg",
             description: "Elegant packaging design for luxury cosmetics"
         },
                         {
             id: 2,
             title: "Cosmetics Packaging",
             category: "packaging",
-            image: "images/hames-t-shirt3.jpeg",
+            image: "images/3.jpeg",
             description: "Elegant packaging design for luxury cosmetics"
         },
         // {
@@ -112,28 +112,28 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 6,
             title: "Botanical Illustrations",
             category: "illustration",
-            image: "images/card.jpeg",
+            image: "images/4.jpeg",
             description: "Series of feminine botanical illustrations"
         },
                 {
             id: 6,
             title: "Botanical Illustrations",
             category: "illustration",
-            image: "images/cebha3la.jpeg",
+            image: "images/5.jpeg",
             description: "Series of feminine botanical illustrations"
         },
                 {
             id: 6,
             title: "Botanical Illustrations",
             category: "illustration",
-            image: "images/cairo.jpeg",
+            image: "images/6.jpeg",
             description: "Series of feminine botanical illustrations"
         },
         {
             id: 7,
             title: "Jewelry Brand Identity",
             category: "branding",
-            image: "images/in-solution.jpeg",
+            image: "images/7.jpeg",
             description: "Luxury brand identity for jewelry brand"
         },
                 {
