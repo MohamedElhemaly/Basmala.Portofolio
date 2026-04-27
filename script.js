@@ -101,13 +101,13 @@ document.addEventListener('DOMContentLoaded', function() {
         //     image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
         //     description: "Website UI/UX design for a fashion brand"
         // },
-        {
-            id: 5,
-            title: "Organic Food Logo",
-            category: "branding",
-            image: "images/mix.jpeg",
-            description: "Logo design for organic food company"
-        },
+        // {
+        //     id: 5,
+        //     title: "Organic Food Logo",
+        //     category: "branding",
+        //     image: "images/mix.jpeg",
+        //     description: "Logo design for organic food company"
+        // },
         {
             id: 6,
             title: "Botanical Illustrations",
