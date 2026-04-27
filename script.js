@@ -136,13 +136,13 @@ document.addEventListener('DOMContentLoaded', function() {
             image: "images/7.jpeg",
             description: "Luxury brand identity for jewelry brand"
         },
-                {
-            id: 7,
-            title: "Jewelry Brand Identity",
-            category: "branding",
-            image: "images/coderatech.jpeg",
-            description: "Luxury brand identity for jewelry brand"
-        },
+        //         {
+        //     id: 7,
+        //     title: "Jewelry Brand Identity",
+        //     category: "branding",
+        //     image: "images/coderatech.jpeg",
+        //     description: "Luxury brand identity for jewelry brand"
+        // },
                 {
             id: 7,
             title: "Jewelry Brand Identity",
@@ -150,41 +150,55 @@ document.addEventListener('DOMContentLoaded', function() {
             image: "images/oa.jpeg",
             description: "Luxury brand identity for jewelry brand"
         },
-                {
-            id: 7,
-            title: "Jewelry Brand Identity",
-            category: "branding",
-            image: "images/techne.jpeg",
-            description: "Luxury brand identity for jewelry brand"
+        {
+            id: 8,
+            title: "Botanical Moodboard",
+            category: "illustration",
+            image: "images/WhatsApp Image 2026-04-13 at 10.10.42 PM.jpeg",
+            description: "Soft botanical illustration artwork"
         },
-                {
-            id: 7,
-            title: "Jewelry Brand Identity",
+        {
+            id: 9,
+            title: "Feminine Branding Concept",
             category: "branding",
-            image: "images/mia.jpeg",
-            description: "Luxury brand identity for jewelry brand"
+            image: "images/WhatsApp Image 2026-04-13 at 10.10.42 PM (1).jpeg",
+            description: "Elegant branding concept with floral details"
         },
-                {
-            id: 7,
-            title: "Jewelry Brand Identity",
-            category: "branding",
-            image: "images/t-peer.jpeg",
-            description: "Luxury brand identity for jewelry brand"
-        },
-                {
-            id: 7,
-            title: "Jewelry Brand Identity",
-            category: "branding",
-            image: "images/la-nuit.jpeg",
-            description: "Luxury brand identity for jewelry brand"
-        },
-                {
-            id: 7,
-            title: "Jewelry Brand Identity",
-            category: "branding",
-            image: "images/global.jpeg",
-            description: "Luxury brand identity for jewelry brand"
-        },
+        //         {
+        //     id: 7,
+        //     title: "Jewelry Brand Identity",
+        //     category: "branding",
+        //     image: "images/techne.jpeg",
+        //     description: "Luxury brand identity for jewelry brand"
+        // },
+        //         {
+        //     id: 7,
+        //     title: "Jewelry Brand Identity",
+        //     category: "branding",
+        //     image: "images/mia.jpeg",
+        //     description: "Luxury brand identity for jewelry brand"
+        // },
+        //         {
+        //     id: 7,
+        //     title: "Jewelry Brand Identity",
+        //     category: "branding",
+        //     image: "images/t-peer.jpeg",
+        //     description: "Luxury brand identity for jewelry brand"
+        // },
+        //         {
+        //     id: 7,
+        //     title: "Jewelry Brand Identity",
+        //     category: "branding",
+        //     image: "images/la-nuit.jpeg",
+        //     description: "Luxury brand identity for jewelry brand"
+        // },
+        //         {
+        //     id: 7,
+        //     title: "Jewelry Brand Identity",
+        //     category: "branding",
+        //     image: "images/global.jpeg",
+        //     description: "Luxury brand identity for jewelry brand"
+        // },
         // {
         //     id: 8,
         //     title: "Book Cover Design",
@@ -192,41 +206,41 @@ document.addEventListener('DOMContentLoaded', function() {
         //     image: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
         //     description: "Book cover design for romantic novel"
         // },
-        {
-            id: 9,
-            title: "Social Media Campaign",
-            category: "digital",
-            image: "images/borad.jpeg",
-            description: "Complete social media campaign visuals"
-        },
-                {
-            id: 9,
-            title: "Social Media Campaign",
-            category: "digital",
-            image: "images/borad.jpeg",
-            description: "Complete social media campaign visuals"
-        },
-                {
-            id: 9,
-            title: "Social Media Campaign",
-            category: "digital",
-            image: "images/markting.jpeg",
-            description: "Complete social media campaign visuals"
-        },
-                {
-            id: 9,
-            title: "Social Media Campaign",
-            category: "digital",
-            image: "images/presentaiton.jpeg",
-            description: "Complete social media campaign visuals"
-        },
-                {
-            id: 9,
-            title: "Social Media Campaign",
-            category: "digital",
-            image: "images/multimedia.jpeg",
-            description: "Complete social media campaign visuals"
-        }
+        // {
+        //     id: 9,
+        //     title: "Social Media Campaign",
+        //     category: "digital",
+        //     image: "images/borad.jpeg",
+        //     description: "Complete social media campaign visuals"
+        // },
+        //         {
+        //     id: 9,
+        //     title: "Social Media Campaign",
+        //     category: "digital",
+        //     image: "images/borad.jpeg",
+        //     description: "Complete social media campaign visuals"
+        // },
+        //         {
+        //     id: 9,
+        //     title: "Social Media Campaign",
+        //     category: "digital",
+        //     image: "images/markting.jpeg",
+        //     description: "Complete social media campaign visuals"
+        // },
+        //         {
+        //     id: 9,
+        //     title: "Social Media Campaign",
+        //     category: "digital",
+        //     image: "images/presentaiton.jpeg",
+        //     description: "Complete social media campaign visuals"
+        // },
+        //         {
+        //     id: 9,
+        //     title: "Social Media Campaign",
+        //     category: "digital",
+        //     image: "images/multimedia.jpeg",
+        //     description: "Complete social media campaign visuals"
+        // }
     ];
     
     // Services data
@@ -301,15 +315,10 @@ document.addEventListener('DOMContentLoaded', function() {
         
         filteredItems.forEach(item => {
             const portfolioItem = document.createElement('div');
-            portfolioItem.className = `portfolio-item ${item.category}`;
+            portfolioItem.className = 'portfolio-item';
             portfolioItem.setAttribute('data-category', item.category);
             portfolioItem.innerHTML = `
                 <img src="${item.image}" alt="${item.title}">
-                <div class="portfolio-overlay">
-                    <h4>${item.title}</h4>
-                    <p>${item.description}</p>
-                    <div class="portfolio-category">${item.category.toUpperCase()}</div>
-                </div>
             `;
             portfolioGrid.appendChild(portfolioItem);
         });
@@ -317,28 +326,6 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Initialize portfolio with all items
     renderPortfolioItems();
-    
-    // Add category badges to portfolio items
-    const style = document.createElement('style');
-    style.textContent = `
-        .portfolio-category {
-            display: inline-block;
-            background-color: var(--primary-color);
-            color: white;
-            padding: 5px 12px;
-            border-radius: 20px;
-            font-size: 0.8rem;
-            font-weight: 600;
-            margin-top: 10px;
-        }
-        
-        .branding .portfolio-category { background-color: #e84393; }
-        .packaging .portfolio-category { background-color: #a29bfe; }
-        .print .portfolio-category { background-color: #00cec9; }
-        .digital .portfolio-category { background-color: #fd79a8; }
-        .illustration .portfolio-category { background-color: #6c5ce7; }
-    `;
-    document.head.appendChild(style);
     
     // Filter functionality
     filterButtons.forEach(button => {
