@@ -87,6 +87,27 @@ document.addEventListener('DOMContentLoaded', function() {
             image: "images/3.jpeg",
             description: "Elegant packaging design for luxury cosmetics"
         },
+                        {
+            id: 2,
+            title: "Cosmetics Packaging",
+            category: "packaging",
+            image: "images/dog.jpeg",
+            description: "Elegant packaging design for luxury cosmetics"
+        },
+                        {
+            id: 2,
+            title: "Cosmetics Packaging",
+            category: "packaging",
+            image: "images/old.jpeg",
+            description: "Elegant packaging design for luxury cosmetics"
+        },
+                        {
+            id: 2,
+            title: "Cosmetics Packaging",
+            category: "packaging",
+            image: "images/arcade.jpeg",
+            description: "Elegant packaging design for luxury cosmetics"
+        },
         // {
         //     id: 3,
         //     title: "Wedding Invitation Set",
